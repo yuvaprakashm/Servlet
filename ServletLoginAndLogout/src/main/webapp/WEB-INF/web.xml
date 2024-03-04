@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>LoginandLogot</display-name>
+
+	<servlet>
+		<description></description>
+		<display-name>Loginservlet</display-name>
+		<servlet-name>Loginservlet</servlet-name>
+		<servlet-class>com.yuva.Loginservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Loginservlet</servlet-name>
+		<url-pattern>/Loginservlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>LogoutServlet</display-name>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>com.yuva.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description></description>
+		<display-name>Profileservlet</display-name>
+		<servlet-name>Profileservlet</servlet-name>
+		<servlet-class>com.yuva.Profileservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Profileservlet</servlet-name>
+		<url-pattern>/Profileservlet</url-pattern>
+	</servlet-mapping>
+</web-app>
